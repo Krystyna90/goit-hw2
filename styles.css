@@ -1,0 +1,230 @@
+/* General styles */
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --nav-list-link-color: #212121;
+  --phone-email-color-white-theme: #757575;
+  --phone-email-color-dark-there: rgba(255, 255, 255, 0.6);
+  --background-colors: #ffffff;
+  --modal-button-color: #188ce8;
+  --hero-color: #2f303a;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+.studio-header {
+  color: var(--nav-list-link-color);
+}
+
+.studio-logo {
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header styles */
+
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--accent-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  color: var(--nav-list-link-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.phone-number,
+.email-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  color: var(--phone-email-color-white-theme);
+}
+.phone-number:hover,
+.phone-number:focus,
+.email-address:hover,
+.email-address:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  line-height: 160%;
+  vertical-align: Center;
+  letter-spacing: 6%;
+  color: var(--background-colors);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--modal-button-color);
+}
+.hero {
+  background-color: var(--hero-color);
+}
+.main-title {
+  font-style: Black;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  line-height: 116%;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  color: var(--background-colors);
+}
+/* Description */
+.description-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--nav-list-link-color);
+}
+.description-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  line-height: 146%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--phone-email-color-white-theme);
+}
+
+/* What we do section */
+.what-we-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--nav-list-link-color);
+}
+
+/* Our team */
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team-list {
+  background-color: var(--background-colors);
+}
+.product-designer-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--nav-list-link-color);
+}
+.product-designer-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--phone-email-color-white-theme);
+}
+/* FOOTER */
+.footer {
+  background-color: var(--hero-color);
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  line-height: 146%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--background-colors);
+}
+.phone-email-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  line-height: 146%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO */
+/* Portfolio buttons */
+.button-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  line-height: 139%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--nav-list-link-color);
+  background-color: #f5f4fa;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--background-colors);
+  background-color: var(--accent-color);
+}
+/* portfolio list */
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  line-height: 171%;
+  vertical-align: Top;
+  letter-spacing: 6%;
+  color: var(--nav-list-link-color);
+}
+.portfolio-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  line-height: 160%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: var(--phone-email-color-white-theme);
+}
