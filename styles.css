@@ -39,9 +39,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
@@ -49,9 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.87;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--nav-list-link-color);
 }
 .nav-list-link:hover,
@@ -68,9 +64,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.87;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--phone-email-color-white-theme);
 }
 .phone-number:hover,
@@ -86,9 +80,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  line-height: 160%;
-  vertical-align: Center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--background-colors);
   background-color: var(--accent-color);
   cursor: pointer;
@@ -105,9 +97,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  line-height: 116%;
-  vertical-align: Top;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--background-colors);
 }
 /* Description */
@@ -115,18 +105,14 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--nav-list-link-color);
 }
 .description-paragraph {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  line-height: 146%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--phone-email-color-white-theme);
 }
 
@@ -135,9 +121,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--nav-list-link-color);
 }
 
@@ -152,18 +136,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--nav-list-link-color);
 }
 .product-designer-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--phone-email-color-white-theme);
 }
 /* FOOTER */
@@ -175,9 +155,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  line-height: 146%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--background-colors);
 }
 .phone-email-link {
@@ -185,9 +163,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  line-height: 146%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -198,9 +174,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  line-height: 139%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--nav-list-link-color);
   background-color: #f5f4fa;
 }
@@ -214,17 +188,13 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  line-height: 171%;
-  vertical-align: Top;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   color: var(--nav-list-link-color);
 }
 .portfolio-paragraph {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  line-height: 160%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--phone-email-color-white-theme);
 }
